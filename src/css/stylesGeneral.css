@@ -19,13 +19,12 @@ a{
     position:fixed;
     top: 0;
     left: 0;
-
 }
 .idLogo{
     height: 10vh;
     width: 27vh;
     margin-left: 4vh;
-    margin-top: 4vh;
+    margin-top: -2vh;
     background-color: gray;
 }
 .navigation{

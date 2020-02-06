@@ -1,0 +1,25 @@
+@media screen and (max-width: 640px){
+    #bannerTitles{
+        margin-left: -1vh;
+        margin-top: 44vh;
+        height: 230px;
+        position: absolute;
+    }
+    .mainMenu{
+        display: flex;
+        flex-direction: column;
+        height: 8vh;
+        width: 100%;
+        position:fixed;
+        top: 0;
+        left: 0;
+        font-size: 2vh;
+        float: left;   
+    }
+    .idLogo{
+        background-color: red; 
+    }
+    .navigation ul li{
+        float:none;
+    }
+}
