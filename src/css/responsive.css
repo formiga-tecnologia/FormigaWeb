@@ -1,11 +1,12 @@
 @media screen and (max-width: 640px){
     #bannerTitles{
         margin-left: -1vh;
-        margin-top: 44vh;
-        height: 230px;
+        margin-top: 24vh;
+        height: 110px;
         position: absolute;
     }
     .mainMenu{
+        z-index: 99;
         display: flex;
         flex-direction: column;
         height: 8vh;
@@ -21,5 +22,15 @@
     }
     .navigation ul li{
         float:none;
+    }
+    .banner{
+        top:0;
+        left: 0;
+        height: 83vh;   
+        margin:auto;
+        margin-top: 43vh;
+    }
+    h1,h3{
+        font-size:15px;
     }
 }
