@@ -1,6 +1,62 @@
+a{
+    font-style: normal;
+    text-decoration: none;
+}
+
 /*Nav componet style*/
+#menuMain{
+    -webkit-box-shadow: 4px 17px 20px -8px rgba(0,0,0,0.51);
+    -moz-box-shadow: 4px 17px 20px -8px rgba(0,0,0,0.51);
+    box-shadow: 4px 17px 20px -8px rgba(0,0,0,0.51);
+}
+.mainMenu{
+    display: flex;
+    flex-direction: row;
+    background-color: #CCC;
+    opacity: 0.9;
+    height: 16vh;
+    width: 100%;
+    position:fixed;
+    top: 0;
+    left: 0;
+
+}
 .idLogo{
-    height: 40px;
-    width: 40px;
+    height: 10vh;
+    width: 27vh;
+    margin-left: 4vh;
+    margin-top: 4vh;
     background-color: gray;
+}
+.navigation{
+    margin-top: 1vh;
+    background-color: #CCC;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5vh;
+    color:#757575;
+    
+}
+.navigation ul li{
+    list-style: none;
+    padding-left: 60px;
+    float: left;
+    font-style: normal;
+    text-decoration: none;
+}  
+.navigation a:hover{
+    font-size: 7vh;
+    transition: 2s;
+    background-color: #CCC;
+    color:black;
+}
+.navigation a{
+    transition: 2s;
+    color:#757575;
+}
+/*Banner component*/
+.banner{
+    top:0;
+    left: 0;
+    width: 100%;
+    margin-left: auto;
 }
