@@ -1,8 +1,7 @@
-#imgBanner{
-    top:0;
-    left: 0;
-    height: 180vh;
-    width: 210vh;
-    margin-left: auto;
-
+#bannerTitles{
+    margin-left: 30vh;
+    margin-top: 44vh;
+    position: absolute;
+    background-color: #767676;
+    opacity: 0.9;
 }

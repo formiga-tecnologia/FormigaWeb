@@ -57,6 +57,22 @@ a{
 .banner{
     top:0;
     left: 0;
+    height: 83vh;   
+    margin:auto;
+    margin-top: 16vh;
+    background-color: blue;
+}
+.banner img{
     width: 100%;
-    margin-left: auto;
+    height: 100%;
+}
+.banner h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+}
+.banner h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 4vh;
 }
