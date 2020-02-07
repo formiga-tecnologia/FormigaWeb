@@ -5,3 +5,12 @@
     background-color: #535353;
     opacity: 0.9;
 }
+#VitrineStyles{
+    background-color: #CCCC;
+    left: 0;
+    right: 26.09%;
+    height: 90vh;
+    width: 100%;
+    margin-top: 104vh;
+    position: absolute;
+}
