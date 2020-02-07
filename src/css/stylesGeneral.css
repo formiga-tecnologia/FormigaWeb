@@ -77,3 +77,20 @@ a{
     color: white;
     padding: 4vh;
 }
+/*Micro Cards component*/
+.card-micro{
+    height: 50vh;
+    width: 30vh;
+    background-color: white;
+    border-radius: 1vh;
+    margin-left: 4vh;
+    margin-top: 4vh;
+}
+.card-micro img{
+    height: 20vh;
+    width: 20vh;
+    border-radius: 3vh;
+    padding: 2vh;
+    margin:auto;
+    margin-left: 3vh;
+}
