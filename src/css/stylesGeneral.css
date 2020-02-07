@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
 a{
     font-style: normal;
     text-decoration: none;
@@ -12,7 +14,7 @@ a{
 .mainMenu{
     display: flex;
     flex-direction: row;
-    background-color: #CCC;
+    background-color: #535353;
     opacity: 0.9;
     height: 16vh;
     width: 100%;
@@ -23,21 +25,19 @@ a{
 .idLogo{
     height: 10vh;
     width: 27vh;
-    margin-left: 4vh;
+    margin-left: -10vh;
     margin-top: -2vh;
-    background-color: gray;
+    background-color: #e7e3e3;
 }
 .navigation{
     margin-top: 1vh;
-    background-color: #CCC;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 5vh;
-    color:#757575;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 4vh;
     
 }
 .navigation ul li{
     list-style: none;
-    padding-left: 60px;
+    padding-left: 6vh;
     float: left;
     font-style: normal;
     text-decoration: none;
@@ -50,7 +50,7 @@ a{
 }
 .navigation a{
     transition: 2s;
-    color:#757575;
+    color:white;
 }
 /*Banner component*/
 .banner{
@@ -66,12 +66,12 @@ a{
     height: 100%;
 }
 .banner h1{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Quicksand', sans-serif;
     color: white;
     text-align: center;
 }
 .banner h3{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Quicksand', sans-serif;
     color: white;
     padding: 4vh;
 }
