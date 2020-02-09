@@ -79,12 +79,13 @@ a{
 }
 /*Micro Cards component*/
 .card-micro{
-    height: 50vh;
+    height:auto;
     width: 30vh;
     background-color: white;
     border-radius: 1vh;
-    margin-left: 4vh;
+    margin-left: 7vh;
     margin-top: 4vh;
+    padding-bottom: 4vh;
 }
 .card-micro img{
     height: 20vh;
@@ -93,4 +94,17 @@ a{
     padding: 2vh;
     margin:auto;
     margin-left: 3vh;
+}
+.card-micro-text{
+    margin-top: 1vh;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    color:#535353;
+}
+.card-micro-textContent{
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    color:#535353;
+    font-size: medium;
+    margin-top: -4vh;
 }
