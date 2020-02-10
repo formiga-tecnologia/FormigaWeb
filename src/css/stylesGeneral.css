@@ -81,7 +81,7 @@ a{
 .card-micro{
     height:auto;
     width: 30vh;
-    background-color: white;
+    background-color: #CCC;
     border-radius: 1vh;
     margin-left: 7vh;
     margin-top: 4vh;
@@ -107,4 +107,21 @@ a{
     color:#535353;
     font-size: medium;
     margin-top: -4vh;
+}
+
+
+
+/*Rodape*/
+.footer-element{
+    position: absolute;
+    margin-top: 5vh;
+    left: 0;
+    width: 100%;
+    height: 10vh;
+    background-color: #535353;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2vh;
+    color: white;
+    text-align: center;
+    padding-top: 2vh;
 }

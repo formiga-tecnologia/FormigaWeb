@@ -6,13 +6,11 @@
     opacity: 0.9;
 }
 #VitrineStyles{
-    background-color: #CCCC;
     left: 0;
     right: 26.09%;
     height: auto;
     width: 100%;
     margin-top: 104vh;
-    position: absolute;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
