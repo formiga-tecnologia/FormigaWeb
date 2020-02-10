@@ -57,4 +57,15 @@
         margin-left: 8vh;
         margin-top: 4vh;
     }
+    .articlePages{
+        flex-direction:column;
+    }
+    .articlePages img{
+        height: 60vh;
+        width: 90vh;
+        margin: auto;
+    }
+    .articlepages-bt{
+        height: 12vh;
+    }
 }
