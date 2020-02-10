@@ -109,7 +109,52 @@ a{
     margin-top: -4vh;
 }
 
+/*Article page*/
+.articlePages{
+    height: auto;
+    width: 80%;
+    margin: auto;
+    margin-top: 2vh;
+    background-color: #535353;
+    border-radius: 2vh;
+    padding: 4vh;
+    display: flex;
+    flex-direction: row;
+}
 
+.containerPage{
+    display: flex;
+    flex-direction: column;
+}
+
+.articlePages h2{ 
+    padding: 4vh;
+    margin-top: -4vh;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+
+}
+.articlePages h3{ 
+    padding-left: 4vh;
+    margin-top: -2vh;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+
+/*bottons*/
+.articlepages-bt{
+
+    background-color: white;
+    color: #535353;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    font-weight: bolder;
+    height: 30px;
+    width: 30vh;
+    margin-left: 4vh;
+}
 
 /*Rodape*/
 .footer-element{
@@ -124,4 +169,12 @@ a{
     color: white;
     text-align: center;
     padding-top: 2vh;
+}
+
+/*effects*/
+.translucide-effect{
+    width: auto;
+    height: auto;
+    position: absolute;
+    background-color: black;
 }
