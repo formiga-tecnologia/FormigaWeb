@@ -1,75 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="./src/css/stylesGeneral.css">
-    <link rel="stylesheet" href="./src/css/idsStyle.css">
-    <link rel="stylesheet" href="./src/css/responsive.css">
-    <title>Formiga tech</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link href="./css/generalStyles.css" rel="stylesheet" >
+    <title>Formiga Tecnologia</title>
 </head>
 <body>
-    <nav id="menuMain" class="mainMenu">
-
-        <div class="navigation">
+    <div id="menuId"></div>
+    <div id=app>
+        <div id="dinamic"></div>
+    </div>
+    <script src="./Framework/engine.js" type="module"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="./js/main.js"  type="module"></script>
+    <br><br>
+    <footer>
+        <div class="darkcore">
+        <div id="brandingFooter">
+            <img height="160vh" width="160vh">
+            Formiga Tecnologia 2021
+            todos os direitos reservados
+        </div>
+        <div id="contentFooter">
             <ul>
-                <li><a href="#"><div class="idLogo"></div></a></li>
-                <li class="element"><a href="#">Home</a href="#"></li>
-                <li class="element"><a href="#">Products</a></li class="element">
-                <li class="element"><a href="#">About</a href="#"></li class="element">
-                <li class="element"><a href="#">Fork to a GitHub!</a></li class="element">
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Produtos</a></li>
+                <li><a href="#">Equipe</a></li>
             </ul>
         </div>
-    </nav>
-
-    <figure class=banner>
-        <div id="bannerTitles">
-            <h1>Construa novos horizontes com a Formiga Lang</h1>
-            <h3>A foprmiga Lang é uma linguagem funcional onde você confere em tempo real o que esta construindo.</h3>
         </div>
-        <img id="imgBanner" src="https://s2.best-wallpaper.net/wallpaper/1920x1200/1608/Insect-ants-green-leaves-clouds-blue-sky_1920x1200.jpg">        
-    </figure>
-
-    <div id="VitrineStyles">
-        <article class="card-micro">
-            <img src="https://lh3.googleusercontent.com/p52LF7wn28qohiq-IBGlCmHCRourLLwnmWZUyu7Z25iZqWJ_VYtf4oU2A207fnf4bQ=s180-rw">
-            <div class="card-micro-text"><h3>Subway Divs</h3><br/> <div class="card-micro-textContent">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas facere ea officia laborum. [Download]</div></div>
-        </article>
-
-        <article class="card-micro">
-            <img src="https://lh3.googleusercontent.com/p52LF7wn28qohiq-IBGlCmHCRourLLwnmWZUyu7Z25iZqWJ_VYtf4oU2A207fnf4bQ=s180-rw">
-            <div class="card-micro-text"><h3>Subway Divs</h3><br/> <div class="card-micro-textContent">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas facere ea officia laborum.</div></div>
-        </article>
-
-        <article class="card-micro">
-            <img src="https://lh3.googleusercontent.com/p52LF7wn28qohiq-IBGlCmHCRourLLwnmWZUyu7Z25iZqWJ_VYtf4oU2A207fnf4bQ=s180-rw">
-            <div class="card-micro-text"><h3>Subway Divs</h3><br/> <div class="card-micro-textContent">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas facere ea officia laborum.</div></div>
-        </article>
-
-        <article class="card-micro">
-            <img src="https://lh3.googleusercontent.com/p52LF7wn28qohiq-IBGlCmHCRourLLwnmWZUyu7Z25iZqWJ_VYtf4oU2A207fnf4bQ=s180-rw">
-            <div class="card-micro-text"><h3>Subway Divs</h3><br/> <div class="card-micro-textContent">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas facere ea officia laborum.</div></div>
-        </article>
-
-        <article class="card-micro">
-            <img src="https://lh3.googleusercontent.com/p52LF7wn28qohiq-IBGlCmHCRourLLwnmWZUyu7Z25iZqWJ_VYtf4oU2A207fnf4bQ=s180-rw">
-            <div class="card-micro-text"><h3>Subway Divs</h3><br/> <div class="card-micro-textContent">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas facere ea officia laborum.</div></div>
-        </article>
-        
-    </div>
-    <article class="articlePages">
-        <div class="translucide-effect"></div>
-        <img src="https://lh3.googleusercontent.com/proxy/_MxdDpJUq9yMdujpHH3Sm5erDLvHWCpcbAfLyyAEBrnAprarrNorDLnqOeSkk_ECmfSFgoobvglhCTX41CIx-xLcsuASdHY0r8Cz">
-        <div class="containerPage">
-        <h2>Novos modos de escrever o mesmo codigo</h2> 
-        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt iste sit blanditiis est nisi rerum sunt, quas maiores commodi? Ipsum impedit facilis distinctio porro omnis ratione quae nostrum numquam excepturi.</h3>
-        <div class="articlepages-bt"><a href="#">Conheça agora  > </a></div>
-        </div>
-    </article>
-
-<footer class="footer-element">
-    Formiga 2020, todos os direitos reservados. <br/>Site desenvolvido por: Felipe Catão
-</footer>
+    </footer>
 </body>
 </html>
