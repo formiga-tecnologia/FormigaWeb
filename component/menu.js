@@ -8,9 +8,9 @@ function menu(Title){
 }
 
 function renderMenu(Title){
-    return "<nav class='navbar navbar-expand-lg bg-dark'>"+
+    return "<div class='menuFixed'><nav class='navbar navbar-expand-lg bg-dark'>"+
     "<div class='container-fluid'>"+
-      "<a class='navbar-brand' href='#'>Formiga</a>"+
+      "<a class='navbar-brand' href='#'><img src='img/51281553.png' height='80vh' width='80vh'></a>"+
       "<button class='navbar-toggler' type='button' data-bs-toggle='collapse' data-bs-target='#navbarNavAltMarkup' aria-controls='navbarNavAltMarkup' aria-expanded='false' aria-label='Toggle navigation'>"+
        "<span class='navbar-toggler-icon'></span>"+
       "</button>"+
@@ -23,7 +23,8 @@ function renderMenu(Title){
         "</div>"+
       "</div>"+
     "</div>"+
-  "</nav>"
+  "</nav>"+
+  "</div>"
 }
 
 export default menu
