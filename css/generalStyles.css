@@ -21,10 +21,9 @@ article h4{
 }
 .menuFixed{
     position: fixed;
-    height: 100%;
     width: 100%;
     margin-top: -16vh;
-    z-index: 90;
+
 }
 .flexcont{
     margin: auto;
