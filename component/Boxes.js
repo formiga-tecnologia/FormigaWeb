@@ -8,7 +8,7 @@ function Boxes(title,content,IdContent,target){
 }
 
 function renderBoxes(title,content){
-    return "<div></div>"
+    return "<div class='boxes'>"+content+"</div>"
 }
 
 export default Boxes
