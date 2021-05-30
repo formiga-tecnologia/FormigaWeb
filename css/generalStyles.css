@@ -116,10 +116,25 @@ article h4{
 }
 
 .boxes{
-    height: 50vh;
-    width: 40vh;
+    padding-bottom: 5vh;
+    width: 50vh;
     background-color: #1d1b1b;
     border:1px solid #383838;
     border-radius: 2vh;
-    margin-left: 12vh;
+    margin-left: 6vh;
+}
+.boxes img{
+    margin-top: 2vh;
+    margin-left: 2vh;
+}
+.boxes-title{
+    font-size: 6vh;
+    color: #868686;
+    margin-left: 1vh;
+}
+.boxes-text{
+    margin-left: 1vh;
+    color: #a1a1a1;
+    font-size: 3vh;
+    width: 35vh;
 }
