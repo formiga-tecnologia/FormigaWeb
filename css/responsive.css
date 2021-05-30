@@ -1,0 +1,22 @@
+
+@media  screen and (max-width: 850px) {
+    h1{
+        font-size:4vh;
+    }
+    #session1{
+        display: flex;
+        flex-flow: column wrap;
+        order: 2;
+
+    }
+    #IDart1{
+        position: relative;
+        margin-top: 24vh;
+    }
+    #art2{
+        margin-top: 10vh;
+    }
+    .boxes{
+        margin-bottom: 3vh;
+    }
+}

@@ -10,8 +10,7 @@ function Container(containerName,title,content){
 function renderContainer(title,content){
     return "<div class='flexcont'>"+
     "<div class='squareContent'>"+title+"</div>"+
-    "<div class='squareContent LargeContent'>"+content+"</div>"+
-    "</div><br><div class='separator'></div>"
+    "<div class='squareContent LargeContent'>"+content+" </div><br>"
 }
 
 export default Container
